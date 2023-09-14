@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            Dashboard
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#" >Logout</a></li>
+                <li><a href="#" ><img id="navimg" alt=""></a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome <%= name%> </h1>
+            <p>Manage your account and explore the features.</p>
+        </section>
+        
+        <section class="widgets">
+            <div class="widget">
+                <h2>Widget 1</h2>
+                <p>Widget content goes here.</p>
+            </div>
+
+            <div class="widget">
+                <h2>Widget 2</h2>
+                <p>Widget content goes here.</p>
+            </div>
+
+            <!-- Add more widgets as needed -->
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 <%= name %>
+    </footer>
+</body>
+</html>
